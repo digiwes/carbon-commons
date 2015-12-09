@@ -100,7 +100,7 @@
                             org.wso2.carbon.url.mapper.internal.exception
                         </Private-Package>
                         <Import-Package>
-                            org.wso2.carbon.registry.core.*;version="${carbon.kernel.imp.pkg.version}",
+                            org.wso2.carbon.registry.core.*;version="${carbon.kernel.registry.imp.pkg.version}",
                             *;resolution:=optional
                         </Import-Package>
                         <Export-Package>
