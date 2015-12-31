@@ -30,8 +30,8 @@
         <module>service-stubs/remote-tasks</module>
         <module>service-stubs/reporting</module>
         <module>service-stubs/url-mapper</module>
-        <module>service-stubs/userstore-config</module>
-        <module>service-stubs/user-manager</module>
+        <!--<module>service-stubs/userstore-config</module>-->
+        <!--<module>service-stubs/user-manager</module>-->
         <module>service-stubs/remote-usermgt</module>
         <module>service-stubs/event</module>
         <module>service-stubs/ndatasource</module>
@@ -41,7 +41,7 @@
         <module>service-stubs/message-flows</module>
 
         <!-- Components -->
-        <module>components/user-manager</module>
+        <!--<module>components/user-manager</module>-->
 	<module>components/tenant-mgt-common</module>
         <module>components/authentication</module>
         <module>components/deployment-synchronizer</module>
@@ -60,8 +60,8 @@
         <module>components/tryit</module>
         <module>components/wsdl2form</module>
         <module>components/logging</module>
-        <module>components/userstore-config</module>
-        <module>components/remote-usermgt</module>
+        <!--<module>components/userstore-config</module>-->
+        <!--<module>components/remote-usermgt</module>-->
         <module>components/event</module>
         <module>components/ndatasource</module>
         <module>components/ws-discovery-core</module>
@@ -86,8 +86,8 @@
         <module>features/transaction-manager</module>
         <module>features/tryit</module>
         <module>features/url-mapper</module>
-        <module>features/user-manager</module>
-        <module>features/remote-usermgt</module>
+        <!--<module>features/user-manager</module>-->
+        <!--<module>features/remote-usermgt</module>-->
         <module>features/event</module>
         <module>features/ndatasource</module>
         <module>features/ws-discovery-core</module>
@@ -1857,7 +1857,7 @@
                 </property>
             </activation>
             <modules>
-                <module>components/user-manager</module>
+                <!--<module>components/user-manager</module>-->
                 <module>components/tenant-mgt-common</module>
                 <module>components/authentication</module>
                 <module>components/deployment-synchronizer</module>
@@ -1876,8 +1876,8 @@
                 <module>components/tryit</module>
                 <module>components/wsdl2form</module>
                 <module>components/logging</module>
-                <module>components/userstore-config</module>
-                <module>components/remote-usermgt</module>
+                <!--<module>components/userstore-config</module>-->
+                <!--<module>components/remote-usermgt</module>-->
                 <module>components/event</module>
                 <module>components/ndatasource</module>
                 <module>components/ws-discovery-core</module>
@@ -1931,7 +1931,7 @@
         <!-- Axis2 Version -->
         <axis2.wso2.version>1.6.1-wso2v14</axis2.wso2.version>
         <axis2.version>1.6.1-wso2v14</axis2.version>
-        <axis2.osgi.version.range>[1.6.1.wso2v14, 1.7.0)</axis2.osgi.version.range>
+        <axis2.osgi.version.range>[1.6.1.wso2v11, 1.7.0)</axis2.osgi.version.range>
         <orbit.version.axis2>1.6.1.wso2v11</orbit.version.axis2>
         <neethi.osgi.version>2.0.4.wso2v4</neethi.osgi.version>
         <neethi.osgi.version.range>[2.0.4.wso2v4, 3.1.0)</neethi.osgi.version.range>

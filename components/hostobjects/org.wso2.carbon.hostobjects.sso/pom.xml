@@ -71,7 +71,7 @@
                         <Export-Package>
                             org.wso2.carbon.hostobjects.sso.*;
                         </Export-Package>
-                        <DynamicImport-Package>*</DynamicImport-Package>
+                            <DynamicImport-Package>javax.xml.parsers,*</DynamicImport-Package>
                     </instructions>
                 </configuration>
             </plugin>
